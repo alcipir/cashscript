@@ -1,4 +1,5 @@
-# This file can be run with CashProof to prove that the optimisations preserve exact functionality
+export default 
+`# This file can be run with CashProof to prove that the optimisations preserve exact functionality
 # This includes most of CashScript's bytecode optimisations, although some are incompatible with CashProof
 
 # Hardcoded arithmetic
@@ -111,3 +112,4 @@ OP_13 OP_NIP                   <=> OP_DROP OP_13;
 OP_14 OP_NIP                   <=> OP_DROP OP_14;
 OP_15 OP_NIP                   <=> OP_DROP OP_15;
 OP_16 OP_NIP                   <=> OP_DROP OP_16;
+`
